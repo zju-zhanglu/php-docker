@@ -41,3 +41,4 @@ RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | 
     && npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 RUN echo -e "\n172.16.0.13    gitlab.tengsaw.cn\n" >> /etc/hosts
+
