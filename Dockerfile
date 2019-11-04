@@ -1,4 +1,4 @@
-FROM nanoninja/php-fpm:7.3.6
+FROM nanoninja/php-fpm:7.3.10
 MAINTAINER Zhang Lu <zhanglu@techsight.cn>
 
 RUN mv /etc/apt/sources.list /etc/apt/sources.list_bak \
